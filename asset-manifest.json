@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/friends-quiz-app/static/css/main.7080d938.chunk.css",
+    "main.js": "/friends-quiz-app/static/js/main.d1840b47.chunk.js",
+    "main.js.map": "/friends-quiz-app/static/js/main.d1840b47.chunk.js.map",
+    "runtime-main.js": "/friends-quiz-app/static/js/runtime-main.82bde381.js",
+    "runtime-main.js.map": "/friends-quiz-app/static/js/runtime-main.82bde381.js.map",
+    "static/js/2.0ea3ffaa.chunk.js": "/friends-quiz-app/static/js/2.0ea3ffaa.chunk.js",
+    "static/js/2.0ea3ffaa.chunk.js.map": "/friends-quiz-app/static/js/2.0ea3ffaa.chunk.js.map",
+    "index.html": "/friends-quiz-app/index.html",
+    "precache-manifest.9a0bf20845d4a65bc502d69b807086a8.js": "/friends-quiz-app/precache-manifest.9a0bf20845d4a65bc502d69b807086a8.js",
+    "service-worker.js": "/friends-quiz-app/service-worker.js",
+    "static/css/main.7080d938.chunk.css.map": "/friends-quiz-app/static/css/main.7080d938.chunk.css.map",
+    "static/js/2.0ea3ffaa.chunk.js.LICENSE.txt": "/friends-quiz-app/static/js/2.0ea3ffaa.chunk.js.LICENSE.txt",
+    "static/media/cafe.png": "/friends-quiz-app/static/media/cafe.eacc5bfa.png",
+    "static/media/cat.png": "/friends-quiz-app/static/media/cat.07cecf68.png",
+    "static/media/chick.png": "/friends-quiz-app/static/media/chick.fcd1acc3.png",
+    "static/media/couch.png": "/friends-quiz-app/static/media/couch.1c50ad4c.png",
+    "static/media/frame.png": "/friends-quiz-app/static/media/frame.9ebf938b.png",
+    "static/media/how.png": "/friends-quiz-app/static/media/how.a3a97c21.png",
+    "static/media/hugsy.png": "/friends-quiz-app/static/media/hugsy.911eacb3.png",
+    "static/media/lobster.png": "/friends-quiz-app/static/media/lobster.d94e9763.png",
+    "static/media/logo.png": "/friends-quiz-app/static/media/logo.5b47baf3.png",
+    "static/media/turkey.png": "/friends-quiz-app/static/media/turkey.72c47f41.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82bde381.js",
+    "static/js/2.0ea3ffaa.chunk.js",
+    "static/css/main.7080d938.chunk.css",
+    "static/js/main.d1840b47.chunk.js"
+  ]
+}
