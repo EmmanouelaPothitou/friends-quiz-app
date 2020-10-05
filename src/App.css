@@ -1,38 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
+  text-align: center;
+  background-color: #f37bf3;
+  min-height: 100vh;
+  padding: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;   
+  position: relative;
+  }
+
+
+.frame {
+  margin: 0 auto;
+  max-width: 80%;
+  z-index: 1;
+}
+
+
+.title {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 60px;
+  color: white;text-shadow: 2px 2px #8d93ab;
+}
+
+button {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+  
+  background-color: whitesmoke;
+  border: none;
+  outline: none; 
+  border-radius: 6px;
+  margin: 10px 4px 10px 4px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.questionBox {
+  text-align: center;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  height: 120px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.score {
+  margin: 40px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-shadow: 2px 2px #8d93ab;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.playAgainBtn {
+  font-size: 30px;
+  height: 70px;
+  width: 200px;
+  background-color: #fddb3a;
+  color: whitesmoke;
+  text-shadow: 1px 1px #8d93ab;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.decorations img {
+  position: absolute;
+ 
 }
+
+.decorations .frames img:first-child {
+  top: 5%;
+  left: 5%
+}
+
+.decorations .frames img:last-child {
+  top: 5%;
+  right: 7%
+}
+
+.decorations .lobsters img:first-child {
+  top: 20%;
+  left: 10%;
+  height: 160px;
+  transform: rotate(35deg);
+}
+
+.decorations .lobsters img:last-child {
+  top: 30%;
+  right: 5%;
+  height: 40px;
+  transform: rotate(-20deg);
+}
+
+.decorations .cat img:first-child {
+  top: 51%;
+  left: 1%;
+  transform: rotate(-10deg);
+}
+
+.decorations .cat img:last-child {
+  top: 40%;
+  right: 5%;
+  height: 100px;
+}
+
+.decorations .cafes img:first-child {
+  top: 85%;
+  left: 85%;
+  height: 55px;
+  transform: rotate(-25deg);
+
+}
+
+.decorations .cafes img:last-child {
+  top: 60%;
+  right: 10%;
+  height: 180px;
+}
+
+.decorations .how img:first-child {
+  top: 75%;
+  left: 3%;
+  transform: rotate(65deg);
+  
+}
+  
+.decorations .how img:last-child {
+  top: 80%;
+  right: 78%
+}
+
+  
